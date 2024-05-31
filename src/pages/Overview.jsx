@@ -8,7 +8,7 @@ const Overview = () => {
   const navigate = useNavigate();
 
   const nowPlayingData = [
-    { src: "/Dune.jpg", alt: "Dune", title: "Dune", path: "/movie" },
+    { src: "/Dune.jpg", alt: "Dune", title: "Dune", path: "/movies/:id" },
     {
       src: "/Maleficent.jpg",
       alt: "Maleficent",
